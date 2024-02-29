@@ -3,6 +3,7 @@ module github.com/w84thesun/gci
 go 1.18
 
 require (
+	github.com/daixiang0/gci v0.13.0
 	github.com/hexops/gotextdiff v1.0.3
 	github.com/pmezard/go-difflib v1.0.0
 	github.com/spf13/cobra v1.6.1
