@@ -1,4 +1,4 @@
-module github.com/daixiang0/gci
+module github.com/w84thesun/gci
 
 go 1.18
 
