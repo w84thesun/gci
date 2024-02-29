@@ -23,7 +23,7 @@ func InitLogger() {
 		logConfig.EncoderConfig.TimeKey = "timestamp"
 		logConfig.EncoderConfig.EncodeTime = zapcore.ISO8601TimeEncoder
 		logConfig.Level.SetLevel(zapcore.InfoLevel)
-		logConfig.OutputPaths = []string{"stderr"}
+		logConfig.OutputPaths = []string{"stdout"}
 
 		var err error
 		logger, err = logConfig.Build()
